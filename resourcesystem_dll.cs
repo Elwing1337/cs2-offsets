@@ -1,9 +1,9 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-09-06 09:54:19.087810500 UTC
+// 2025-12-23 11:40:48.653776800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: resourcesystem.dll
-    // Class count: 58
+    // Class count: 59
     // Enum count: 2
     public static class ResourcesystemDll {
         // Alignment: 1
@@ -52,13 +52,6 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MResourceTypeForInfoType
         public static class InfoForResourceTypeCMorphSetData {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MResourceTypeForInfoType
-        public static class InfoForResourceTypeCChoreoSceneFileData {
         }
         // Parent: None
         // Field count: 0
@@ -179,6 +172,13 @@ namespace CS2Dumper.Schemas {
         public static class InfoForResourceTypeProceduralTestResource_t {
         }
         // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MResourceTypeForInfoType
+        public static class InfoForResourceTypeCChoreoSceneFileList {
+        }
+        // Parent: None
         // Field count: 2
         public static class AABB_t {
             public const nint m_vMinBounds = 0x0; // Vector
@@ -232,6 +232,13 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MResourceTypeForInfoType
         public static class InfoForResourceTypeCTypeScriptResource {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MResourceTypeForInfoType
+        public static class InfoForResourceTypeCChoreoSceneResource {
         }
         // Parent: None
         // Field count: 0
