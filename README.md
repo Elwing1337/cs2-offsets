@@ -1,10 +1,13 @@
 # Counter-Strike 2 All New Offsets
 
-Hello! These offsets are updated every day, and I check daily whether CS2 has got an update.
+Counter-Strike 2 Offsets Updated Every Game Update.
+Faster than a2x.
+Easy to use in p2c's
 
-# Credits
 
-Dumped offsets from [a2x / cs2-dumper](https://github.com/a2x/cs2-dumper)
+## CS2 Base
+Still working on it hehe
+
 
 ## License
 
