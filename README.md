@@ -4,10 +4,29 @@ Counter-Strike 2 Offsets Updated Every Game Update.
 Faster than a2x.
 Easy to use in p2c's
 
+## Example Usage
+```cpp
+void Offsets::UpdateOffsets()
+{
+    std::string offsetsData, buttonsData, client_dllData;
+
+    try
+    {
+        Web::Get("https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json", offsetsData);
+        Web::Get("https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/buttons.json", buttonsData);
+        Web::Get("https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/client_dll.json", client_dllData);
+    }
+    catch (const std::exception& error)
+    {
+        throw std::runtime_error(std::string("Failed to fetch offsets: ") + error.what());
+    }
+
+    SetOffsets(offsetsData, buttonsData, client_dllData);
+}
+```
 
 ## CS2 Base
 Still working on it hehe
-
 
 ## License
 
