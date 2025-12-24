@@ -12,9 +12,9 @@ void Offsets::UpdateOffsets()
 
     try
     {
-        Web::Get("https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json", offsetsData);
-        Web::Get("https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/buttons.json", buttonsData);
-        Web::Get("https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/client_dll.json", client_dllData);
+        Web::Get("https://raw.githubusercontent.com/Elwing1337/cs2-offsets/refs/heads/main/offsets.json", offsetsData);
+        Web::Get("https://raw.githubusercontent.com/Elwing1337/cs2-offsets/refs/heads/main/buttons.json", buttonsData);
+        Web::Get("https://raw.githubusercontent.com/Elwing1337/cs2-offsets/refs/heads/main/client_dll.json", client_dllData);
     }
     catch (const std::exception& error)
     {
