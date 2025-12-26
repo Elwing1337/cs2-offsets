@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-12-25 08:57:49.460833900 UTC
+// 2025-12-26 13:35:10.516163800 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
