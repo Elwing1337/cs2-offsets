@@ -1,6 +1,3 @@
-# Counter-Strike 2 All New Offsets
-
-Counter-Strike 2 Offsets Updated Every Game Update.
 ong faster than a2x
 
 ## Example Usage
