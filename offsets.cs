@@ -1,4 +1,4 @@
-// Generated using https://github.com/a2x/cs2-dumper
+
 // 2025-12-27 17:07:28.362094100 UTC
 
 namespace CS2Dumper.Offsets {
