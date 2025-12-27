@@ -1,8 +1,4 @@
-# Counter-Strike 2 All New Offsets
-
-Counter-Strike 2 Offsets Updated Every Game Update.
-Faster than a2x.
-Easy to use in p2c's
+ong faster than a2x
 
 ## Example Usage
 ```cpp
